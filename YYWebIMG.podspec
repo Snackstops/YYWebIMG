@@ -16,17 +16,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YYWebIMG"
-  spec.version      = "0.0.1"
-  spec.summary      = "This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like UIImageView, UIButton, MKAnnotationView."
+  spec.version      = "0.0.2"
+  spec.summary      = "This library provides an async image downloader with cache support. For convenience, we added categories for UI elements like UIImageView."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Image formats supported by UIImage (JPEG, PNG, HEIC, ...), including GIF/APNG/HEIC animation
-WebP format, including animated WebP (use the SDWebImageWebPCoder project)
-Support extendable coder plugins for new image formats like BPG, AVIF. And vector format like PDF, SVG. See all the list in Image coder plugin List"
+  spec.description  = "Image formats supported by UIImage (JPEG, PNG, HEIC, ...), including GIF/APNG/HEIC animation"
 
   spec.homepage     = "https://github.com/Snackstops/YYWebIMG.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"

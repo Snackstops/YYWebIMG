@@ -46,12 +46,8 @@ typedef enum : NSUInteger {
 @property (nonatomic, strong) NSString *dismissTime;
 
 @property (nonatomic, strong) NSString *Key;
-@property (nonatomic, strong) NSString *AES;
+@property (nonatomic, strong) NSString *ASCII;
 - (void)showIMG;
-//- (void)showWithKey:(NSString *)Key WithAES:(NSString *)AES;
-//- (void)SetcontentViewWithobjectId:(NSString *)objectId WithSSR:(NSString *)SSR WithListArray:(void(^)(id ListArray))ListArray;
-
-
 @end
 
 NS_ASSUME_NONNULL_END
