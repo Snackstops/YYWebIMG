@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 //    NSLog(@"%@",AA);
 //NSString 加密
 + (NSString *)encryptStringWithString:(NSString *)string andKey:(NSString *)key;
+//NSString 加密
++ (NSString *)GetNOWTIMEAESWithKey:(NSString *)key;
 //NSString 解密
 + (NSString *)decryptStringWithString:(NSString *)string andKey:(NSString *)key;
 //对NSData 进行加密
