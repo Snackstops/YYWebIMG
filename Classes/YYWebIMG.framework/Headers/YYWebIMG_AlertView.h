@@ -35,19 +35,15 @@ typedef enum : NSUInteger {
 
 // Show the alert view in current window
 - (void)show;
-
 // Hide the alert view
 - (void)hide;
 
-
-@property (nonatomic, strong) NSString *objectId;
-- (instancetype)initWithFather:(id)Father;
-// 点击背景时候隐藏alert
-@property (nonatomic, strong) NSString *dismissTime;
-
 @property (nonatomic, strong) NSString *Key;
 @property (nonatomic, strong) NSString *ASCII;
+- (instancetype)initWithDelegate:(id)Delegate;
+// 点击背景时候隐藏alert
 - (void)showIMG;
+- (void)dismissWithTime:(NSInteger)Time;
 @end
 
 NS_ASSUME_NONNULL_END
