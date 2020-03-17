@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)EncryptionWithGetNDay:(NSInteger)n WithAESWithKey:(NSString *)key;
 
-
 //NSString 解密
 + (NSString *)DecryptWithString:(NSString *)string WithTYPE:(NSInteger)TYPE;
 

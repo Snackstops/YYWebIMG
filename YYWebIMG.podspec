@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YYWebIMG"
-  spec.version      = "0.0.9"
+  spec.version      = "0.1.0"
   spec.summary      = "Image formats supported by UIImage (JPEG, PNG, HEIC, ...), including GIF/APNG/HEIC animation"
 
   # This description is used to generate tags and improve search results.
