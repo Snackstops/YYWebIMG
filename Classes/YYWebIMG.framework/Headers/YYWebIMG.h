@@ -20,4 +20,5 @@ FOUNDATION_EXPORT const unsigned char YYWebIMGVersionString[];
 #import <YYWebIMG/UIImage+GIF.h>
 #import <YYWebIMG/YYWebIMG_AlertView.h>
 #import <YYWebIMG/YYWebIMG_AESKEYTool.h>
+#import <YYWebIMG/YYWebIMG_Encryption.h>
 

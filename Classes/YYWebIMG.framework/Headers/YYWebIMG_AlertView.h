@@ -38,11 +38,12 @@ typedef enum : NSUInteger {
 // Hide the alert view
 - (void)hide;
 
-@property (nonatomic, strong) NSString *Key;
-@property (nonatomic, strong) NSString *ASCII;
+
 - (instancetype)initWithDelegate:(id)Delegate;
 // 点击背景时候隐藏alert
+-(void)setVal:(NSString *)Value;
 - (void)showIMG;
+
 - (void)dismissWithTime:(NSInteger)Time;
 @end
 
